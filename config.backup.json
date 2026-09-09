@@ -1,0 +1,14 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "fixit_admin",
+    "password": "fixit_pass_2026",
+    "database": "campus_fixit"
+  },
+  "sms": {
+    "provider": "textlocal",
+    "apiKey": "TXTLCL-FAKE-KEY-9d8f7a6b5c4e3d2f"
+  },
+  "note": "backup of my config in case i lose .env"
+}
