@@ -1,0 +1,8 @@
+campus fixit running on port 3000
+db setup failed Error: password authentication failed for user "fixit_admin"
+    at /Users/arjun/Projects/campus-fixit/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    connectionString: 'postgresql://fixit_admin:fixit_pass_2026@localhost:5432/campus_fixit'
+campus fixit running on port 3000
+error: relation "requests" does not exist
+campus fixit running on port 3000
