@@ -1,8 +1,15 @@
 {
   "name": "campus-fixit",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Express and PostgreSQL maintenance tracker for campus facility requests",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --env-file-if-exists=.env --test tests/requests.test.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "pg": "^8.11.3"

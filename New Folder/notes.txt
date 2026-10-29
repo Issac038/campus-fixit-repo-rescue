@@ -1,5 +1,0 @@
-things to do
-- add login for caretaker properly
-- move db stuff out of server.js??
-- ask mentor about deploy
-- caretaker pwd is caretaker123 for demo
